@@ -23,3 +23,24 @@ This dataset presents transactions that occurred in two days, where we have 492 
 
 ## Conclusion
 In conclusion, the main objective of this project was to find the most suited model for creditcard fraud detection in terms of the machine learning techniques chosen for the project. It was met by building the four models and finding the accuracies of them all which increased the customer’s satisfaction as it will provide themwith a better experience and feeling secure.
+
+2. EV Battery life predictor
+
+This project predicts the Remaining Useful Life (RUL) of lithium-ion batteries using machine learning techniques. It uses real-world battery cycling data and interprets the model's decisions using SHAP explainability.
+
+Dataset Summary
+- Source: Hawaii Natural Energy Institute
+- Battery Type: 14 NMC-LCO 18650 cells (nominal capacity: 2.8 Ah)
+- Testing Conditions: 1000+ charge-discharge cycles at 25°C
+
+Linear Regression
+- MAE: 4.64 seconds
+- RMSE: 7.39 seconds
+- R² Score: 0.99947
+
+Random Forest Regressor 
+- MAE: 2.08 seconds
+- RMSE: 3.75 seconds
+- R² Score: 0.99986
+
+The Random Forest model showed significantly lower error values and a better fit to the data, making it the optimal choice for RUL prediction.
